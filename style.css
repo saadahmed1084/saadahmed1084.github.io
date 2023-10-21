@@ -1,4 +1,4 @@
-a {
+/*a {
   color: blue;
   text-decoration: none;
 }
@@ -6,7 +6,7 @@ a {
 a:hover {
   color: red; 
   text-decoration: underline;
-}
+}*/
 
 .fa {
   padding: 20px;
@@ -59,14 +59,23 @@ h4 {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  size: 50 px;
+  margin-left: 20 px;
+  margin-right: 20 px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  size: 50 px;
+  margin-left: 20 px;
+  margin-right: 20 px;
 }
 
 .fa-github {
   background: black;
   color: white;
+  size: 50 px;
+  margin-left: 20 px;
+  margin-right: 20 px;
 }
