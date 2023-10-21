@@ -8,6 +8,20 @@ a:hover {
   text-decoration: underline;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 body {
   background-color: beige;
   color: black;
@@ -40,4 +54,19 @@ h3 {
 h4 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
 }
