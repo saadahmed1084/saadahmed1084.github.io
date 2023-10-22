@@ -10,11 +10,11 @@ a:hover {
 
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  font-size: 20px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px 5px;
   border-radius: 50%;
 }
 
@@ -59,23 +59,14 @@ h4 {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-  size: 50 px;
-  margin-left: 20 px;
-  margin-right: 20 px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
-  size: 50 px;
-  margin-left: 20 px;
-  margin-right: 20 px;
 }
 
 .fa-github {
   background: black;
   color: white;
-  size: 50 px;
-  margin-left: 20 px;
-  margin-right: 20 px;
 }
