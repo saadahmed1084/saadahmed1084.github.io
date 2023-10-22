@@ -15,6 +15,8 @@ a:hover {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin-left: 5 px;
+  margin-right: 5 px;
 }
 
 .fa:hover {
@@ -52,7 +54,7 @@ h3 {
 
 h4 {
   margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .fa-linkedin {
