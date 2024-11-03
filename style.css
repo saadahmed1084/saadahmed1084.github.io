@@ -23,6 +23,16 @@ a:visited:hover {
   text-decoration: none;
 }
 */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
