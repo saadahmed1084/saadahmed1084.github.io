@@ -16,6 +16,12 @@ a:hover {
   text-decoration: none; /*underline is also an option*/
 }
 
+a:visited:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
