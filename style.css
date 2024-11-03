@@ -1,11 +1,19 @@
 a {
   color: blue;
+  background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: red; 
+  color: red;
+  background-color: transparent;
   text-decoration: none; /*underline is also an option*/
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .fa {
