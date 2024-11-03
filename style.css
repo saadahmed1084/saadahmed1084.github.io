@@ -1,12 +1,12 @@
-/*a {
+a {
   color: blue;
   text-decoration: none;
 }
 
 a:hover {
   color: red; 
-  text-decoration: underline;
-}*/
+  text-decoration: none; /*underline is also an option*/
+}
 
 .fa {
   padding: 20px;
