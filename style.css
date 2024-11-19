@@ -22,6 +22,18 @@ a:visited:hover {
   background-color: transparent;
   text-decoration: none;
 }
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
 */
 #loader {
   position: absolute;
@@ -101,7 +113,7 @@ body {
   margin-right: 10%;
 }
 
-footer {
+.social-links {
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-content: center;
@@ -131,24 +143,6 @@ h4 {
 .icon {
   margin-top: 1.5rem;
   margin-bottom: 0;
-}
-
-/*
-.float-container {
-    border: 3px solid #fff;
-    padding: 20px;
-}
-
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
-}
-*/
-
-footer {
-  display: none;
 }
 
 .fa-linkedin {
