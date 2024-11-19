@@ -15,7 +15,10 @@
     <meta name="robots" content="noindex, nofollow"> -->
   </header>
 
-  <body>
+  <body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+  <div style="display:none;" id="mainDiv" class="animate-bottom">
+    
     <img src="portrait.png" height="200" width="200" alt="portrait">
     <h1>Saad Ahmed</h1>
 
@@ -108,6 +111,21 @@
       </div>
     
     </div>
+  </div>
+
+   <script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("mainDiv").style.display = "block";
+}
+</script>
+    
   </body>
   <footer>
     <a href="https://instagram.com/parhlesaadu" class="fa fa-instagram"></a>
