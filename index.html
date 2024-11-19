@@ -15,7 +15,7 @@
     <meta name="robots" content="noindex, nofollow"> -->
   </header>
 
-  <body onload="myFunction()" style="margin:0;">
+  <body onload="loadFunction()">
   <div id="loader"></div>
   <div style="display:none;" id="mainDiv" class="animate-bottom">
     
@@ -111,23 +111,24 @@
       </div>
     
     </div>
-    <a href="https://instagram.com/parhlesaadu" class="fa fa-instagram"></a>
-    <a href="https://linkedin.com/in/parhlesaadu" class="fa fa-linkedin"></a>
-    <a href="https://github.com/parhlesaadu" class="fa fa-github"></a>
   </div>
 
    <script>
 var myVar;
 
-function myFunction() {
+function loadFunction() {
   myVar = setTimeout(showPage, 3000);
 }
 
 function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("mainDiv").style.display = "block";
+document.getElementById("mainDiv").style.display = "block";
 }
 </script>
     
   </body>
+  <footer>
+    <a href="https://instagram.com/parhlesaadu" class="fa fa-instagram"></a>
+    <a href="https://linkedin.com/in/parhlesaadu" class="fa fa-linkedin"></a>
+    <a href="https://github.com/parhlesaadu" class="fa fa-github"></a>
+  </footer>
 </html>
