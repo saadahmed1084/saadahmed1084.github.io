@@ -16,6 +16,7 @@
   </header>
 
   <body onload="loadFunction()">
+  <div id="loader"></div>
   <div id="mainDiv" class="animate-bottom">
     
     <img src="portrait.png" height="200" width="200" alt="portrait">
@@ -111,18 +112,24 @@
     
     </div>
   </div>
+
+   <script>
+var myVar;
+
+function loadFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("mainDiv").style.display = "block";
+}
+</script>
+    
   </body>
-  <footer id="footer">
+  <footer>
     <a href="https://instagram.com/parhlesaadu" class="fa fa-instagram"></a>
     <a href="https://linkedin.com/in/parhlesaadu" class="fa fa-linkedin"></a>
     <a href="https://github.com/parhlesaadu" class="fa fa-github"></a>
   </footer>
-  <script>
-    <script>
-function showPage() {
-  document.getElementById("mainDiv").style.display = "none";
-  document.getElementById("footer").style.display = "block";
-}
-</script>
-  </script>
 </html>
