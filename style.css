@@ -76,6 +76,12 @@ body {
   margin-right: 10%;
 }
 
+.social-links {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-content: center;
+}
+
 h1 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -97,27 +103,9 @@ h4 {
   margin-bottom: 0.25rem;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center; /* Centers icons horizontally */
-  align-items: center;    /* Aligns icons vertically */
-  gap: 20px;              /* Adds spacing between icons */
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .icon {
-  font-size: 2rem;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon img {
-  width: 100%;
-  height: auto;  /* Maintains aspect ratio */
+  margin-top: 1.5rem;
+  margin-bottom: 0;
 }
 
 .fa-linkedin {
