@@ -5,5 +5,4 @@ This website was mostly developed as part of the [Build Your Portfolio Website w
 [Laptop](https://www.flaticon.com/free-icon/laptop_59505) • 
 [Graduation Cap](https://www.flaticon.com/free-icon/graduation-cap_686051) • 
 [Leaves](https://www.flaticon.com/free-icon/leaves_1490749?term=nature&page=1&position=1&origin=search&related_id=1490749) • 
-[Puzzle Pieces](https://www.flaticon.com/free-icon/puzzle-piece_4205637) • 
-[Email](https://www.flaticon.com/free-icons/email)
+[Puzzle Pieces](https://www.flaticon.com/free-icon/puzzle-piece_4205637)
