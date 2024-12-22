@@ -67,6 +67,10 @@ a:hover {
   margin-right: 10px;
 }
 
+.icons {
+  height: 50px;
+  width: 50px;
+
 body {
   background-color: #90EE90;
   color: black;
