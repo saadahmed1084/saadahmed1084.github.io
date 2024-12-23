@@ -76,6 +76,34 @@ body {
   margin-right: 10%;
 }
 
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.item {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
 .social-links {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -129,7 +157,9 @@ h4 {
   color: white;
 }
 
-/* APPENDIX
+/*///////////// APPENDIX ////////////////*/
+
+/*
 a {
   color: blue;
   background-color: transparent;
