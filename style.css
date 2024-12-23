@@ -108,9 +108,12 @@ body {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create equal columns that float next to each other */
 .column {
   float: left;
+}
+
+.projects .column, .volunteering .column {
   width: 25%;
 }
 
@@ -122,8 +125,15 @@ body {
 }
 
 .item {
-  background-color: #f1f1f1;
   padding: 10px;
+  border-style: solid;
+  border-radius: 40%;
+}
+
+.item:hover {
+  color: white;
+  background-color: #000080;
+  transform: translateY(-5px);
 }
 
 .social-links {
