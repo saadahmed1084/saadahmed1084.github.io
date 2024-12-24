@@ -124,16 +124,14 @@ body {
   clear: both;
 }
 
-.item {
-  padding: 10px;
+.projects .item, .volunteering .item {
   border-style: solid;
-  border-radius: 40%;
+  border-radius: 30%;
+  padding: 10px;
 }
 
-.item:hover {
-  color: white;
-  background-color: #000080;
-  transform: translateY(-5px);
+.experience .item, .services .item{
+  border-style: none;
 }
 
 .social-links {
