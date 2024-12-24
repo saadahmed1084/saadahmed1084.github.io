@@ -38,8 +38,8 @@
 }
 
 @keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0; opacity:1 }
 }
 
 #main-div {
@@ -125,7 +125,7 @@ body {
 }
 
 .projects .item, .volunteering .item {
-  border-style: solid;
+  border-style: solid !important;
   border-radius: 30%;
   padding: 10px;
 }
