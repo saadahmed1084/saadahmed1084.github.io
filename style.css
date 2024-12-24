@@ -114,10 +114,14 @@ body {
 .column {
   float: left;
   width: 20%;
+  border-style: solid;
+  border-radius: 25%;
+  border-color: #90EE90;
 }
 
 .column:hover {
   border-style: solid;
+  border-radius: 25%;
 }
 
 /* Clear floats after rows */ 
