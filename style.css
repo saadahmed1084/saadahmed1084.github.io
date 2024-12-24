@@ -110,10 +110,11 @@ body {
 /* Create equal columns that float next to each other */
 .column {
   float: left;
+  width: 20%;
 }
 
-.column {
-  width: 25%;
+.column:hover {
+  border-style: solid;
 }
 
 /* Clear floats after rows */ 
