@@ -77,17 +77,6 @@ a:hover {
   text-decoration: none;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 body {
   background-color: #90EE90;
   color: black;
@@ -186,6 +175,18 @@ h5 {
   width: 60px;
 }
 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -196,7 +197,7 @@ h5 {
   color: white;
 }
 
-.fa-github {
+.fa-github, .fa-envelope {
   background: black;
   color: white;
 }
