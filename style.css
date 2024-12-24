@@ -102,6 +102,7 @@ body {
 
 .row {
   margin: auto;
+  justify-content: center;
 }
 
 /* Add padding BETWEEN each column */
