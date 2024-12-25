@@ -104,7 +104,7 @@ body {
   display: flex;
   margin: auto;
   flex-wrap: wrap; /* Allows items to wrap onto the next line */
-  gap: 2rem; /* Spacing between cards */
+  /* gap: 2rem; Spacing between cards */
   justify-content: center;
 }
 
