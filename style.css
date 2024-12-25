@@ -83,7 +83,7 @@ body {
   text-align: center;
 }
 
-.intro {
+.intro, #education {
   margin-left: 10%;
   margin-right: 10%;
 }
