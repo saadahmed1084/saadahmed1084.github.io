@@ -94,9 +94,9 @@ body {
 
 /* flexbox */
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* for device widths below 768 px */
     .column {
-        flex: 1 1 100%; /* Cards take full width of the container in mobile devices */
+        flex: 1 1 100%; /* Cards take full width of the container */
     }
 }
 
@@ -115,8 +115,8 @@ body {
 
 .column {
   flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
-  min-width: 300px; /* Ensures a minimum card width */
-  max-width: 1fr; /* Optional: allows the card to grow if there's space */
+  min-width: 300px;
+  max-width: 1fr;
   float: left;
   border-style: solid;
   border-radius: 25%;
