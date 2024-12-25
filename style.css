@@ -74,6 +74,8 @@
   color: black;
 }
 
+/* body */
+
 body {
   background-color: #90EE90;
   color: black;
@@ -214,6 +216,6 @@ h5 {
 }
 
 .fa-envelope {
-  background: #CBE2FF;
+  background: #85b5ff;
   color: white;
 }
