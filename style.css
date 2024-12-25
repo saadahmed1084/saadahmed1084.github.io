@@ -83,13 +83,18 @@ body {
   text-align: center;
 }
 
-.intro, #education {
+.intro {
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .section {
   margin-bottom: 0.75rem;
+}
+
+#education {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* flexbox */
