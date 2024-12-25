@@ -1,3 +1,5 @@
+/* loader */
+
 #loader {
   position: absolute;
   left: 50%;
@@ -23,7 +25,8 @@
   100% { transform: rotate(360deg); }
 }
 
-/* Add animation to "page content" */
+/* animation */
+
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
@@ -47,6 +50,8 @@
   text-align: center;
 }
 
+/* alert */
+
 .alert {
   padding: 20px;
   background-color: #f44336;
@@ -69,14 +74,6 @@
   color: black;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 body {
   background-color: #90EE90;
   color: black;
@@ -93,13 +90,14 @@ body {
   margin-bottom: 0.75rem;
 }
 
+/* flexbox */
+
 .row {
   display: flex;
   margin: auto;
   justify-content: center;
 }
 
-/* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
@@ -125,10 +123,14 @@ body {
   clear: both;
 }
 
-.social-links {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  align-content: center;
+/* text */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 p {
@@ -161,6 +163,8 @@ h5 {
   margin-top: 0.5rem;
 }
 
+/* images */
+
 .icon {
   margin-top: 1.5rem;
   margin-bottom: 0;
@@ -175,6 +179,13 @@ h5 {
   width: 60px;
 }
 
+/* fontawesome */
+
+.social-links {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-content: center;
+}
 
 .fa {
   padding: 20px;
@@ -197,7 +208,12 @@ h5 {
   color: white;
 }
 
-.fa-github, .fa-envelope {
+.fa-github {
   background: black;
+  color: white;
+}
+
+.fa-envelope {
+  background: #CBE2FF;
   color: white;
 }
