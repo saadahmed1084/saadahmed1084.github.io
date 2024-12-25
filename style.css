@@ -215,6 +215,7 @@ h5 {
 .fa:hover {
   margin-left: 15px;
   margin-right: 15px;
+  transform: scale(1.05);
 }
 
 .fa-linkedin {
