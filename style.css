@@ -94,9 +94,17 @@ body {
 
 /* flexbox */
 
+@media (max-width: 768px) {
+    .column {
+        flex: 1 1 100%; /* Cards take full width of the container in mobile devices */
+    }
+}
+
 .row {
   display: flex;
   margin: auto;
+  flex-wrap: wrap; /* Allows items to wrap onto the next line */
+  /* gap: 2rem; Spacing between cards */
   justify-content: center;
 }
 
@@ -106,8 +114,10 @@ body {
 }
 
 .column {
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+  min-width: 300px; /* Ensures a minimum card width */
+  max-width: 1fr; /* Optional: allows the card to grow if there's space */
   float: left;
-  width: 22%;
   border-style: solid;
   border-radius: 25%;
   border-color: #90EE90;
