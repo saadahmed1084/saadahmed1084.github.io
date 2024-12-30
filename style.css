@@ -119,7 +119,7 @@ body {
 }
 
 .column {
-  flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+  flex: 0 0 auto; /* Flex-grow, flex-shrink, flex-basis */
   min-width: 300px;
   max-width: 1fr;
   float: left;
