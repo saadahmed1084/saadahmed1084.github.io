@@ -103,9 +103,12 @@ body {
 .row {
   display: flex;
   margin: auto;
-  flex-wrap: nowrap; /* Allows items to wrap onto the next line */
   /* gap: 2rem; Spacing between cards */
   justify-content: center;
+}
+
+#projects > .row {
+  flex-wrap: wrap; /* Allows items to wrap onto the next line */
 }
 
 .row,
