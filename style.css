@@ -129,6 +129,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 
+#experience .column { flex-basis: 40%; }
 #education .column { flex-basis: 25%; }
 #projects .column { flex-basis: 30%; }
 #volunteering .column { flex-basis: 18.5%; }
