@@ -111,7 +111,6 @@ body {
   justify-content: center;
 }
 
-#education .row { gap: 4rem; }
 #projects .row { gap: 2rem; }
 #volunteering .row { gap: 1rem; }
 
@@ -133,7 +132,7 @@ body {
 
 #education .column { flex-basis: 25%; }
 #projects .column { flex-basis: 30%; }
-#volunteering .column { flex-basis: 20%; }
+#volunteering .column { flex-basis: 18.5%; }
 
 .column:hover {
   border-style: solid;
