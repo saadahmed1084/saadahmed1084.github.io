@@ -7,5 +7,6 @@ This website was originally developed as part of the [Build Your Portfolio Websi
 [Leaves](https://www.flaticon.com/free-icon/leaves_1490749?term=nature&page=1&position=1&origin=search&related_id=1490749) • 
 [Puzzle Pieces](https://www.flaticon.com/free-icon/puzzle-piece_4205637) • 
 [C++](https://www.flaticon.com/free-icons/coding) •
-[Python](https://www.flaticon.com/free-icons/python) •
-[HTML](https://www.flaticon.com/free-icons/html5)
+[Python](https://www.flaticon.com/free-icons/python) • 
+[HTML](https://www.flaticon.com/free-icons/html5) • 
+[Circuit](https://www.flaticon.com/free-icons/circuit)
