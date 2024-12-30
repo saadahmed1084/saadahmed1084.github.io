@@ -114,7 +114,7 @@ body {
 }
 
 .column {
-  flex: 0 0 30%; /* Flex-grow, flex-shrink, flex-basis */
+  flex: 0 0; /* Flex-grow, flex-shrink, flex-basis */
   min-width: 300px;
   max-width: 1fr;
   float: left;
@@ -123,6 +123,10 @@ body {
   border-color: #90EE90;
   transition: 0.3s ease-in-out;
 }
+
+#education .column { flex-basis: 25%; }
+#projects .column { flex-basis: 30%; }
+#volunteering .column { flex-basis: 20%; }
 
 .column:hover {
   border-style: solid;
