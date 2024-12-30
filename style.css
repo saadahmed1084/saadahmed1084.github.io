@@ -92,11 +92,6 @@ body {
   margin-bottom: 0.75rem;
 }
 
-#education {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
 /* flexbox */
 
 @media (max-width: 768px) { /* for device widths below 768 px */
@@ -119,7 +114,7 @@ body {
 }
 
 .column {
-  flex: 0 1 auto; /* Flex-grow, flex-shrink, flex-basis */
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
   min-width: 300px;
   max-width: 1fr;
   float: left;
