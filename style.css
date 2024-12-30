@@ -107,12 +107,11 @@ body {
 .row { /* flex-container */
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap onto the next line */
+  margin: auto;
   justify-content: center;
 }
 
-#projects .row { gap: 2rem; margin: auto; }
-#volunteering .row { gap: 1rem; }
-#education row { margin: auto; }
+#projects .row { gap: 2rem; }
 
 .row,
 .row > .column {
