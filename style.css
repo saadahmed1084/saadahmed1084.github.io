@@ -1,3 +1,7 @@
+/*
+1) loader, 2) animation, 3) alert, 4) body, 5) flexbox, 6) text, 7) fontawesome
+*/
+
 /* loader */
 
 #loader {
@@ -100,21 +104,24 @@ body {
     }
 }
 
-.row {
+.row { /* flex-container */
   display: flex;
   margin: auto;
-  gap: 2rem; /* Spacing between cards */
   flex-wrap: wrap; /* Allows items to wrap onto the next line */
   justify-content: center;
 }
+
+#education .row { gap: 4rem; }
+#projects .row { gap: 2rem; }
+#volunteering .row { gap: 1rem; }
 
 .row,
 .row > .column {
   padding: 8px;
 }
 
-.column {
-  flex: 0 0; /* Flex-grow, flex-shrink, flex-basis */
+.column { /* flex-item */
+  flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
   min-width: 300px;
   max-width: 1fr;
   float: left;
