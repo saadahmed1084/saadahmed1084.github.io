@@ -103,7 +103,7 @@ body {
 .row {
   display: flex;
   margin: auto;
-  /* gap: 2rem; Spacing between cards */
+  gap: 2rem; /* Spacing between cards */
   justify-content: center;
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .column {
-  flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+  flex: 0 0 30%; /* Flex-grow, flex-shrink, flex-basis */
   min-width: 300px;
   max-width: 1fr;
   float: left;
