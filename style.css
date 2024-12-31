@@ -112,6 +112,7 @@ body {
 }
 
 #projects .row { gap: 2rem; }
+#volunteering .row { gap: 1rem; }
 
 .row,
 .row > .column {
@@ -130,9 +131,9 @@ body {
 }
 
 #experience .column { flex-basis: 40%; }
-#education .column { flex-basis: 25%; }
 #projects .column { flex-basis: 30%; }
-#volunteering .column { flex-basis: 18.5%; }
+#education .column { flex-basis: 25%; }
+#volunteering .column { flex-basis: 20%; }
 
 .column:hover {
   border-style: solid;
@@ -146,9 +147,8 @@ body {
   clear: both;
 }
 
-.item {
-  padding: 10px;
-}
+.item { padding: 10px; }
+#volunteering .item { padding: 6px; }
 
 /* text */
 
