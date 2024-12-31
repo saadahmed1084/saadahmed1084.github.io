@@ -133,7 +133,7 @@ body {
 #experience .column { flex-basis: 40%; }
 #projects .column { flex-basis: 30%; }
 #education .column { flex-basis: 25%; }
-#volunteering .column { flex-basis: 20%; }
+#volunteering .column { flex-basis: 18.5%; }
 
 .column:hover {
   border-style: solid;
