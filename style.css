@@ -135,6 +135,7 @@ body {
   border-style: solid;
   border-radius: 25%;
   border-color: black;
+  transform: translateY(-5px);
 }
 
 .row:after {  /* Clear floats after rows */ 
