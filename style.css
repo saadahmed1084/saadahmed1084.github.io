@@ -109,15 +109,11 @@ body {
   flex-wrap: wrap; /* Allows items to wrap onto the next line */
   margin: auto;
   justify-content: center;
+  padding: 8px;
 }
 
 #projects .row { gap: 2rem; }
 #volunteering .row { gap: 1rem; }
-
-.row,
-.row > .column {
-  padding: 8px;
-}
 
 .column { /* flex-item */
   flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
