@@ -115,11 +115,6 @@ button:hover {
   transform: translateY(-5px);
 }
 
-p {
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
-}
-
 /* flexbox */
 
 @media (max-width: 768px) { /* for device widths below 768 px */
@@ -209,8 +204,8 @@ h4 {
 }
 
 h5 {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0rem;
 }
 
 /* images */
