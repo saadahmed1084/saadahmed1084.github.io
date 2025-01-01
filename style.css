@@ -273,6 +273,7 @@ h5 {
   color: white;
 }
 
-.fa-trophy {
+.fa-trophy, .fa-trophy:hover {
   font-size: 16px;
+  margin: 0.1rem 0rem; /* vertical, horizontal */
 }
