@@ -140,7 +140,7 @@ button:hover {
   max-width: 1fr;
   float: left;
   border-style: solid;
-  border-radius: 25%;
+  border-radius: 30px;
   border-color: #90EE90;
   transition: 0.3s ease-in-out;
 }
