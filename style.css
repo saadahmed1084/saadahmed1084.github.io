@@ -152,11 +152,7 @@ button:hover {
   transform: translateY(-5px);
 }
 
-.row:after {  /* Clear floats after rows */ 
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .item { padding: 10px; }
 #projects .item { padding-bottom: 20px; }
