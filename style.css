@@ -127,7 +127,7 @@ section {
   padding: 8px;
 }
 
-#projects .row { gap: 2rem; }
+#projects .row, #education .row { gap: 2rem; }
 #volunteering .row { gap: 1rem; }
 
 .column { /* flex-item */
