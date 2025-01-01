@@ -115,6 +115,11 @@ button:hover {
   transform: translateY(-5px);
 }
 
+p {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
 /* flexbox */
 
 @media (max-width: 768px) { /* for device widths below 768 px */
@@ -266,4 +271,8 @@ h5 {
 .fa-envelope {
   background: #85b5ff;
   color: white;
+}
+
+.fa-trophy {
+  font-size: 16px;
 }
