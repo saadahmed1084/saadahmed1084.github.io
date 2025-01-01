@@ -96,6 +96,18 @@ section {
   margin-bottom: 0.75rem;
 }
 
+.button {
+  border-radius: 50%
+  color: #04AA6D;
+  padding: 16px 32px;
+  text-color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 /* flexbox */
 
 @media (max-width: 768px) { /* for device widths below 768 px */
