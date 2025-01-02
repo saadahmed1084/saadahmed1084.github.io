@@ -152,8 +152,6 @@ section {
   transform: translateY(-5px);
 }
 
-
-
 .item { padding: 10px; }
 #experience .item, #projects .item { padding-bottom: 20px; }
 
@@ -211,6 +209,20 @@ h5 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-content: center;
+}
+
+@media (max-width: 4in) and (min-resolution: 300dpi) {
+   .social-links > .fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.3s ease-in-out;
+}
 }
 
 .fa {
