@@ -187,6 +187,10 @@ h5 {
   margin-bottom: 0.5rem;
 }
 
+.bullets {
+  text-align: left;
+}
+
 /* images */
 
 .icon {
