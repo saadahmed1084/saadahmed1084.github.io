@@ -8,5 +8,5 @@ This website was originally developed as part of the [Build Your Portfolio Websi
 [Puzzle Pieces](https://www.flaticon.com/free-icon/puzzle-piece_4205637) • 
 [C++](https://www.flaticon.com/free-icons/coding) •
 [Python](https://www.flaticon.com/free-icons/python) • 
-[HTML](https://www.flaticon.com/free-icons/html5) • 
+[HTML/CSS](https://www.citypng.com/photo/26157/html5-css3-logos-icons-free-png) • 
 [Circuit](https://www.flaticon.com/free-icons/circuit)
