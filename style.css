@@ -1,4 +1,5 @@
 /*
+CONTENTS:
 1) loader, 2) animation, 3) alert, 4) body, 5) flexbox, 6) text, 7) fontawesome
 */
 
@@ -152,8 +153,7 @@ section {
   transform: translateY(-5px);
 }
 
-.item { padding: 10px; }
-#experience .item, #projects .item { padding-bottom: 20px; }
+.item { padding: 20px; }
 
 /* text */
 
