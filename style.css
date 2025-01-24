@@ -126,10 +126,8 @@ section {
   margin: auto;
   justify-content: center;
   padding: 8px;
+  gap: 2rem;
 }
-
-#projects .row, #education .row { gap: 2rem; }
-#volunteering .row { gap: 1rem; }
 
 .column { /* flex-item */
   flex: 0 0; /* flex-grow, flex-shrink, flex-basis */
@@ -143,9 +141,8 @@ section {
 }
 
 #experience .column { flex-basis: 40%; }
-#projects .column { flex-basis: 30%; }
+#projects .column, #volunteering .column { flex-basis: 30%; }
 #education .column { flex-basis: 25%; }
-#volunteering .column { flex-basis: 18.5%; }
 
 .column:hover {
   border-style: solid;
