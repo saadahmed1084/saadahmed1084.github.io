@@ -100,7 +100,7 @@ section {
 .button {
   color: white;
   background-color: #04AA6D;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
   border: none;
   border-radius: 30px;
   padding: 16px 32px;
