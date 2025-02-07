@@ -81,10 +81,12 @@ CONTENTS:
 
 /* body */
 
+@import url('https://fonts.googleapis.com/css?family=Futura');
+
 body {
   background-color: #90EE90;
   color: black;
-  font-family: Futura, Geneva, Verdana, sans-serif;
+  font-family: 'Futura', Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
