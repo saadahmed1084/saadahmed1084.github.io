@@ -182,6 +182,11 @@ h5 {
   margin-bottom: 0.5rem;
 }
 
+p {
+  font-family: Segoe UI, Geneva, Verdana, sans-serif;
+  margin: 0.2rem 0;
+}
+
 .bullets {
   text-align: justify;
   margin-bottom: 10px;
@@ -263,9 +268,8 @@ h5 {
   color: white;
 }
 
-p, .fa-trophy, .fa-trophy:hover {
+.fa-trophy, .fa-trophy:hover {
   font-size: 16px;
-  font-family: Segoe UI, Geneva, Verdana, sans-serif;
   margin: 0.2rem 0; /* vertical, horizontal */
   padding: 0;
 }
