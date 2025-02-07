@@ -139,6 +139,7 @@ section {
   border-color: #90EE90;
   transition: 0.3s ease-in-out;
 }
+#experience .column { flex-basis: 32.5%; }
 #education .column { flex-basis: 25%; }
 
 .column:hover {
