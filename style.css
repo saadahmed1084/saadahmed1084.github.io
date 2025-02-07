@@ -139,7 +139,7 @@ section {
   border-color: #90EE90;
   transition: 0.3s ease-in-out;
 }
-#experience .column { flex-basis: 34.5%; }
+#experience .column { flex-basis: 35%; }
 #education .column { flex-basis: 25%; }
 
 .column:hover {
@@ -191,7 +191,6 @@ p {
   text-align: justify;
   margin-bottom: 10px;
 }
-#experience .bullets { text-align: left; }
 
 /* images */
 
