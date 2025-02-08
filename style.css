@@ -84,7 +84,6 @@ CONTENTS:
 body {
   background-color: #90EE90;
   color: black;
-  font-family: Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -150,6 +149,14 @@ section {
 .item { padding: 10px 20px 20px; } /* top, sides, left */
 
 /* text */
+
+@font-face {
+  font-family: "Archive";
+  src: url("Archive.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 a, a:hover { text-decoration: none; }
 .intro a, .intro a:hover { text-decoration: underline; }
