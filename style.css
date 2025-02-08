@@ -84,7 +84,7 @@ CONTENTS:
 body {
   background-color: #90EE90;
   color: black;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -100,7 +100,6 @@ section {
 .button {
   color: white;
   background-color: #04AA6D;
-  font-family: Segoe UI, sans-serif;
   border: none;
   border-radius: 30px;
   padding: 16px 32px;
