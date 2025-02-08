@@ -158,6 +158,7 @@ section {
   font-display: swap;
 }
 
+body { font-family: 'Archive', sans-serif; }
 a, a:hover { text-decoration: none; }
 .intro a, .intro a:hover { text-decoration: underline; }
 
