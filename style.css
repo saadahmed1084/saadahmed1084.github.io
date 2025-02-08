@@ -152,7 +152,7 @@ section {
 
 @font-face {
   font-family: "Archive";
-  src: url("Archive.woff2") format("woff2");
+  src: url("/fonts/Archive.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
