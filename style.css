@@ -81,12 +81,10 @@ CONTENTS:
 
 /* body */
 
-@import url('https://fonts.googleapis.com/css?family=Futura');
-
 body {
   background-color: #90EE90;
   color: black;
-  font-family: Verdana, sans-serif;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -102,7 +100,7 @@ section {
 .button {
   color: white;
   background-color: #04AA6D;
-  font-family: Segoe UI;
+  font-family: Segoe UI, sans-serif;
   border: none;
   border-radius: 30px;
   padding: 16px 32px;
