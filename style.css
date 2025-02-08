@@ -188,6 +188,7 @@ p {
 
 .bullets {
   text-align: justify;
+  text-justify: inter-word;
   margin-bottom: 10px;
 }
 
