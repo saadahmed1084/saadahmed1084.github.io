@@ -134,14 +134,13 @@ section {
   float: left;
   border-style: solid;
   border-radius: 69px;
+  border-width: thin;
   border-color: #90EE90;
   transition: 0.3s ease-in-out;
 }
-#experience .column { flex-basis: 35%; }
 #education .column { flex-basis: 25%; }
 
 .column:hover {
-  border-style: solid;
   border-color: black;
   transform: translateY(-5px);
 }
@@ -153,8 +152,24 @@ section {
 @font-face {
   font-family: "Archive";
   src: url("/fonts/Archive.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archive";
+  src: url("/fonts/ArchiveBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archive";
+  src: url("/fonts/ArchiveItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
   font-display: swap;
 }
 
