@@ -93,7 +93,7 @@ button:hover {
   font-display: swap;
 }
 
-body { font-family: 'Archive', sans-serif; }
+body, button { font-family: 'Archive', sans-serif; }
 a, a:hover { text-decoration: none; }
 .intro a, .intro a:hover { text-decoration: underline; }
 
