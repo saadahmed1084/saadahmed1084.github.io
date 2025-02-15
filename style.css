@@ -48,6 +48,7 @@ button:hover {
 
 .column { /* flex-item */
   flex-basis: 31.5%; /* flex: flex-grow, flex-shrink, flex-basis; */
+  max-width: 440px;
   min-width: 300px;
   max-width: 1fr;
   float: left;
@@ -92,7 +93,7 @@ button:hover {
   font-display: swap;
 }
 
-body, button { font-family: 'Archive', sans-serif; }
+* { font-family: 'Archive', sans-serif; }
 a, a:hover { text-decoration: none; }
 #intro a, #intro a:hover { text-decoration: underline; }
 
