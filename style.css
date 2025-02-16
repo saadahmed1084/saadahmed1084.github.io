@@ -35,8 +35,6 @@ button:hover {
 
 /* flexbox */
 
-@media (max-width: 768px) { .column { flex: 1 1 100%; } } /* for device widths below 768 px */
-
 .row { /* flex-container */
   display: flex;
   flex-wrap: wrap;
@@ -47,10 +45,8 @@ button:hover {
 }
 
 .column { /* flex-item */
-  flex-basis: 31.5%; /* flex: flex-grow, flex-shrink, flex-basis; */
   max-width: 440px;
   min-width: 300px;
-  max-width: 1fr;
   float: left;
   border-style: solid;
   border-radius: 69px;
@@ -159,20 +155,6 @@ p {
   align-content: center;
 }
 
-@media (max-width: 4in) and (min-resolution: 300dpi) {
-   .social-links > .fa {
-  padding: 10px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 10px;
-  transition: 0.3s ease-in-out;
-}
-}
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -180,8 +162,7 @@ p {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   transition: 0.3s ease-in-out;
 }
 
