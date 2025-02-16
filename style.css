@@ -45,7 +45,7 @@ button:hover {
 }
 
 .column { /* flex-item */
-  flex: 1 1 300px;
+  flex-basis: 300px;
   max-width: 440px;
   float: left;
   border-style: solid;
