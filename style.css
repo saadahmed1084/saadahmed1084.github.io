@@ -1,4 +1,4 @@
-/* body */
+                                /*     body     */
 
 body {
   background-color: #90EE90;
@@ -33,7 +33,7 @@ button:hover {
   transform: translateY(-5px);
 }
 
-/* flexbox */
+                                /*     flexbox     */
 
 .row { /* flex-container */
   display: flex;
@@ -45,7 +45,7 @@ button:hover {
 }
 
 .column { /* flex-item */
-  flex-basis: 300px;
+  min-width: 300px;
   max-width: 440px;
   float: left;
   border-style: solid;
@@ -63,7 +63,7 @@ button:hover {
 
 .item { padding: 10px 20px 20px; } /* top, sides, left */
 
-/* text */
+                                  /*     text     */
 
 @font-face {
   font-family: "Archive";
@@ -131,7 +131,7 @@ p {
   margin-bottom: 10px;
 }
 
-/* images */
+                                /*     images     */
 
 .icon {
   margin-top: 1.5rem;
@@ -147,7 +147,7 @@ p {
   width: 60px;
 }
 
-/* fontawesome */
+                                /*     fontawesome     */
 
 .social-links {
   margin-top: 2rem;
@@ -198,7 +198,7 @@ p {
   padding: 0;
 }
 
-/* appendix
+                                /*     appendix     */
 
 .alert {
   padding: 20px;
@@ -221,5 +221,3 @@ p {
 .closebtn:hover {
   color: black;
 }
-
-*/
