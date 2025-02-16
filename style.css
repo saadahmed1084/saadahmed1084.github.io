@@ -45,8 +45,8 @@ button:hover {
 }
 
 .column { /* flex-item */
+  flex: 1 1 300px;
   max-width: 440px;
-  min-width: 300px;
   float: left;
   border-style: solid;
   border-radius: 69px;
@@ -151,7 +151,7 @@ p {
 
 .social-links {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   align-content: center;
 }
 
