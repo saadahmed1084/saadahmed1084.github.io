@@ -52,7 +52,6 @@ button:hover {
   border-radius: 69px;
   border-width: thin;
   border-color: #90EE90;
-  background-color: #f1f5f9;
   transition: 0.3s ease-in-out;
 }
 #education .column { flex-basis: 25%; }
