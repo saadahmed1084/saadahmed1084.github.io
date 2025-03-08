@@ -172,24 +172,18 @@ p {
   transform: scale(1.05);
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
+.social-links > .fa { color: white; }
+.fa-linkedin { background: #007bb5; }
+.fa-instagram { background: #125688; }
+.fa-github { background: black;}
+.fa-envelope { background: #85b5ff;}
 
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-github {
-  background: black;
-  color: white;
-}
-
-.fa-envelope {
-  background: #85b5ff;
-  color: white;
+@media (max-width: 390px) {
+  .social-links > .fa {
+    padding: 0;
+    color: black;
+    background: transparent;
+  }
 }
 
 .fa-trophy, .fa-trophy:hover {
@@ -217,7 +211,4 @@ p {
   cursor: pointer;
   transition: 0.3s;
 }
-
-.closebtn:hover {
-  color: black;
-}
+.closebtn:hover { color: black; }
