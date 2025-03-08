@@ -175,14 +175,13 @@ p {
 .social-links > .fa { color: white; }
 .fa-linkedin { background: #007bb5; }
 .fa-instagram { background: #125688; }
-.fa-github { background: black;}
-.fa-envelope { background: #85b5ff;}
+.fa-github { background: black; }
+.fa-envelope { background: #85b5ff; }
 
 @media (max-width: 390px) {
   .social-links > .fa {
-    padding: 0;
-    color: black;
-    background: transparent;
+    padding: 10px; 
+    font-size: 25px;
   }
 }
 
