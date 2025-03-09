@@ -8,6 +8,7 @@ body {
   margin: auto;
 }
 section { margin-top: 0.75rem; }
+#intro { margin-left: 10%; margin-right: 10%; }
 
 button {
   color: white;
