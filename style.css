@@ -37,7 +37,7 @@ button:hover {
   background-color: #333;
   overflow: hidden;
   opacity: 0.4;
-  border-radius: 50px;
+  border-radius: 25px;
 }
 
 .navbar a {
