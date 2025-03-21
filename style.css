@@ -63,11 +63,11 @@ button:hover {
   color: black;
 }
 
-.navbar a:nth-child(3) i { transform: scale(0.8, 1); /* Shrinks width, keeps height */ }
-/* The selector .navbar a:nth-child(3) i works as follows:
+.navbar a:nth-child(3) i { transform: scale(0.8, 1); /* Shrinks width, keeps height */  transform:translateX(-2px); }
+/* The selector .navbar a:nth-child(3) works as follows:
 .navbar → Selects the element with class navbar.
 a:nth-child(3) → Targets the third <a> tag that is a direct child of .navbar.
-i → Selects the <i> tag inside that third <a>. */
+*/
 
                                 /*     flexbox     */
 
