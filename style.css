@@ -193,7 +193,10 @@ p {
   transform: scale(1.05);
 }
 
-.navbar .fa { padding: 0; }
+.navbar .fa { 
+  padding: 0;
+  margin: 0 0.8rem;
+}
 
 @media (max-width: 400px) {
   .social-links > .fa {
