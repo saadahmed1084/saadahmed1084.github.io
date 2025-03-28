@@ -7,7 +7,6 @@ body {
   max-width: 1500px;
   margin: auto;
 }
-html { scroll-behavior: smooth; }
 section { margin-top: 0.75rem; }
 #intro { margin-left: 10%; margin-right: 10%; }
 
@@ -31,9 +30,9 @@ button:hover {
 
                                 /*     navbar     */
 
+html { scroll-behavior: smooth; }
 .navbar {
-  /* flex */
-  display: flex;
+  display: none; /* originally set to flex */
   gap: 0;
   flex-direction: column;
   align-items: center;
@@ -243,6 +242,7 @@ p {
                                 /*     appendix     */
 
 .alert {
+  display: none;
   padding: 20px;
   background-color: #f44336;
   color: white;
