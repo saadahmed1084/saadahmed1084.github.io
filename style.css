@@ -151,7 +151,7 @@ p {
   margin: 10px;
   transition: 0.3s ease-in-out;
 }
-.social-links { margin-bottom: 0.75rem; }
+.social-links { margin-bottom: 0.5rem; }
 .social-links > .fa {
   padding: 15px;
   width: 25px;
