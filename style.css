@@ -25,7 +25,7 @@
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #F4F4F9;
   color: black;
   text-align: center;
   max-width: 1500px;
@@ -106,7 +106,7 @@ button:hover { background-color: #059669; }
   border-style: solid;
   border-radius: 69px;
   border-width: thin;
-  background-color: #F4F4F9;
+  background-color: #E5E7EB;
   transition: 0.3s ease-in-out;
 }
 #education .column { flex-basis: 310px; }
