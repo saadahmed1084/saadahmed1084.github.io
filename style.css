@@ -76,7 +76,7 @@ p { margin: 0.2rem 0; }
 
 button {
   color: white;
-  background-color: #10B981;
+  background-color: #059669;
   border: none;
   border-radius: 30px;
   padding: 16px 32px;
@@ -86,7 +86,6 @@ button {
   margin-top: 1rem;
   cursor: pointer;
 }
-button:hover { background-color: #059669; }
 
                                 /*     flexbox     */
 
