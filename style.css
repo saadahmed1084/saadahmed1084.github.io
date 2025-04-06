@@ -1,4 +1,5 @@
                                 /*     body     */
+
 @font-face {
   font-family: "Archive";
   src: url("/fonts/Archive.woff2") format("woff2");
@@ -24,7 +25,7 @@
 }
 
 body {
-  background-color: #CCCCCC;
+  background-color: #DDDDDD;
   color: black;
   text-align: center;
   max-width: 1500px;
@@ -87,6 +88,7 @@ button {
 }
 
                                 /*     flexbox     */
+
 .row { /* flex-container */
   display: flex;
   flex-wrap: wrap;
@@ -103,16 +105,17 @@ button {
   border-style: solid;
   border-radius: 69px;
   border-width: thin;
-  border-color: #90EE90;
+  border-color: #DDDDDD;
   transition: 0.3s ease-in-out;
 }
 #education .column { flex-basis: 310px; }
 .column:hover { border-color: black; transform: translateY(-5px); }
 
-.item { padding: 10px 20px 20px; } /* top, sides, left */
+.item { padding: 10px 20px 20px; }
 
 
                                 /*     images     */
+
 .icon {
   margin-top: 1.5rem;
   margin-bottom: 0;
@@ -128,6 +131,7 @@ button {
 }
 
                                 /*     fontawesome     */
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -165,6 +169,7 @@ button {
 }
 
                                 /*     appendix     */
+
 .alert {
   display: none;
   padding: 20px;
