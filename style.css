@@ -104,11 +104,10 @@ button:hover { background-color: #059669; }
   max-width: 440px;
   float: left;
   border-radius: 69px;
-  background-color: #E5E7EB;
   transition: 0.3s ease-in-out;
 }
 #education .column { flex-basis: 310px; }
-.column:hover { transform: translateY(-5px); }
+.column:hover { background-color: #E5E7EB; transform: translateY(-5px); }
 
 .item { padding: 10px 20px 20px; }
 
