@@ -139,7 +139,7 @@ button {
   margin: 10px;
   transition: 0.3s ease-in-out;
 }
-footer { background-color: #F4F4F9; }
+footer { padding: 0.5rem; background-color: #F4F4F9; }
 footer > .fa {
   padding: 15px;
   width: 25px;
