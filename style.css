@@ -126,7 +126,7 @@ p { margin: 0.2rem 0; }
   margin: 10px;
   transition: 0.3s ease-in-out;
 }
-footer { padding: 0.5rem; background-color: #F4F4F9; }
+footer { padding: 0.5rem; background-color: #F0F0F0; }
 footer > .fa {
   padding: 15px;
   width: 25px;
