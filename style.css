@@ -134,7 +134,7 @@ footer > .fa {
   font-size: 25px;
   margin: 5px;
 }
-footer { background-color: #F0F0F0; padding: 0.5rem; }
+footer { width: 100%; background-color: #F0F0F0; padding: 0.5rem; }
 footer > .fa:hover { margin: 5px 10px; transform: scale(1.05); }
 
 .fa-linkedin { background: #007bb5; }
