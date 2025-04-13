@@ -28,12 +28,11 @@ body {
   background-color: #FFFFFF;
   color: black;
   text-align: center;
-  max-width: 1500px;
   margin: auto;
 }
 
 * { font-family: 'Archive', sans-serif; }
-section { margin-top: 0.75rem; }
+section { margin-top: 0.75rem; max-width: 1500px; }
 #intro { margin-left: 10%; margin-right: 10%; }
 a, a:hover { text-decoration: none; }
 #intro a, #intro a:hover { text-decoration: underline; }
