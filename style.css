@@ -73,7 +73,7 @@ p { margin: 0.2rem 0; }
   margin-bottom: 10px;
 }
 
-hr { width: 50%; margin: 0 auto 1rem; }
+hr { width: 50%; margin: 0.5rem auto 0; }
 
 button {
   display: block;
@@ -149,8 +149,10 @@ footer > .fa {
   font-size: 25px;
   margin: 5px;
 }
-footer { width: 100%; background-color: #F0F0F0; padding: 0.5rem; }
+footer { box-sizing: border-box; width: 100%; background-color: #F0F0F0; padding: 0.5rem; }
 footer > .fa:hover { margin: 5px 10px; transform: scale(1.05); }
+/* Default box-sizing: content-box; Width and height apply only to the content. Padding and border are added on top of that
+box-sizing: border-box; Padding and borders are also included. */
 
 .fa-linkedin { background: #007bb5; }
 .fa-instagram { background: #125688; }
