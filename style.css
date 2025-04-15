@@ -35,6 +35,7 @@ body {
 section { margin: 0.75rem auto 0; max-width: 1500px; }
 #intro { margin-left: 10%; margin-right: 10%; }
 a, a:hover { text-decoration: none; }
+button a { color: inherit; }
 .services { text-decoration: underline; }
 
 h1 {
