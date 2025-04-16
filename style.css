@@ -96,7 +96,7 @@ hr { width: 50%; margin: 1.5rem auto 0; }
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  justify-content: center;
+  justify-content: center; /* horizontal */
   padding: 8px;
   gap: 2rem;
 }
@@ -104,7 +104,6 @@ hr { width: 50%; margin: 1.5rem auto 0; }
 .column { /* flex-item */
   min-width: 300px;
   max-width: 440px;
-  float: left;
   border-radius: 69px;
   transition: 0.3s ease-in-out;
 }
