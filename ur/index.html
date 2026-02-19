@@ -5,7 +5,7 @@
     <title>Saad Ahmed | Portfolio</title>
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="preload" href="../assets/fonts/jnn-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/jnn-regular.woff2" as="font" type="font/woff2" crossorigin>     <!--crossorigin prevents double preloading-->
     <link rel="preload" href="../assets/fonts/jnn-kasheeda.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,9 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <!--to adjust webpage according to screen sizes-->
     <meta name="name" content="Saad Ahmed | Portfolio">    <!--to enable search engine to fetch the webpage-->
     <style>
-    * { font-family: 'Nastaliq', sans-serif; }
-    .item h3 { margin: 0.5rem 0; }
-    p, h4 { font-size: 18px; }
+      * { font-family: 'Nastaliq', sans-serif; }
+      .item h3 { margin: 0.5rem 0; }
+      p, h4 { font-size: 18px; }
+      .eng { font-family: 'Archive', sans-serif; font-size: 16px; }
+      #projects .column { width: 350px; }
     </style>
   </header>
 
@@ -30,7 +32,7 @@
         <br>
         علاوہ ازیں، میں پرسنل برانڈنگ کی سہولیات فراہم کرتا ہوں، جن کے تحت میں اپنے کلائنٹس کے لیئے خوبصورت اور بااثر سی ویز، لنکڈ ان پروفائلز، اور ذاتی ویب سائٹس تیار کرتا ہوں۔
       </h3>
-      <p><a href="../" style="font-family: 'Archive'; font-size: 16px;">English</a> • <b>اردو</b></p>
+      <p><a href="../" class="eng">English</a> • <b>اردو</b></p>
     </section>
     <hr>
     
@@ -38,7 +40,8 @@
       <img class="section-header-icon" src="../assets/icons/section/laptop.png">
       <h2>تکنیکی تجربہ</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="LD-ship">
           <div class="item">
             <img class="logo" src="../assets/icons/school/fast.png" border-radius="50%" alt="NUCES logo">
             <h3>فاسٹ نیشنل یونیورسٹی، اسلام آباد</h3>
@@ -46,10 +49,11 @@
             <h4>اگست۲۰۲۴ تا دسمبر۲۰۲۴</h4>
             <div class="bullets">
               <p>• ڈیٹا سٹرکچرز لیب میں ۶۰ سے زائد طلبا کو بطور ڈمنسٹریٹر خدمات انجام دیں۔</p>
-              <p>• طلبا کو انفرادی طور پر سی پلس پلس پروگرامز کی ڈیبگنگ اور ٹیسٹنگ میں مدد فراہم کی۔</p>
+              <p>• طلبا کو انفرادی طور پر <span class="eng" dir="ltr">C++</span> پروگرامز کی ڈیبگنگ اور ٹیسٹنگ میں مدد فراہم کی۔</p>
             </div>
           </div>
         </div>
+
       </div>
     </section>
       
@@ -57,7 +61,8 @@
       <img class="section-header-icon" src="../assets/icons/section/leaves.png">
       <h2>ماحولیاتی تجربہ</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="bunyaad">
           <div class="item">
             <img class="logo" src="../assets/icons/org/bunyaad.png" alt="Bunyaad logo">
             <h3>بنیاد پاکستان</h3>
@@ -65,7 +70,7 @@
             <h4>اکتوبر ۲۰۲۳ تا ستمبر ۲۰۲۴</h4>
             <div class="bullets">
               <p>• تنظیم کے لیئے ۱۵۰۰۰ روپے بطور چندہ اکٹھے کئے۔ </p>
-              <p>• رمضان ۲۰۲۴ میں ۱۰۰ سے زائد مستحق افراد کیلئے ہفتہ وار افطار دسترخوان تیار کئے۔</p>
+              <p>• رمضان ۲۰۲۴ میں مستحق افراد کیلئے ہفتہ وار افطار دسترخوان تیار کئے۔</p>
               <p>• اسلام آباد کی کچی آبادی میں سردیوں کے لیئے گرم کپڑے تقسیم کئے۔</p>
               <p>• صفائی اور شجرکاری کی مختلف مہمات میں بطور رضاکار اور نگران حصہ ادا کیا۔</p>
               <p>• بنیاد کے لنکڈ ان پروفائل کی مینجمنٹ سنبھالی اور تمام میسجز کے جوابات دیئے۔</p>
@@ -73,21 +78,7 @@
           </div>
         </div>
         
-        <div class="column">
-          <div class="item">
-            <img class="logo" src="../assets/icons/org/fff.png" alt="Fridays For Future PK logo">
-            <h3>فرائی ڈیز فار فیوچر (ایف ایف ایف) پاکستان</h3>
-            <h4>سوشل میڈیا انٹرن</h4>
-            <h4>جولائی ۲۰۲۳</h4>
-            <div class="bullets">
-              <p>• ایف ایف ایف کے انسٹاگرام اکاؤنٹ کے لیئے دو پوسٹ تیار کئے۔</p>
-              <p>• جنگلات کی کٹائی اور ۲۰۲۲ کے سیلابوں پر معلوماتی رسالے تحریر کئے۔</p>
-              <p>• سوشل میڈیا مینجمنٹ اور گرافک ڈیزائن کی عملی تربیت حاصل کی۔</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="column">
+        <div class="column" id="nust-p4ca">
           <div class="item">
             <img class="logo" src="../assets/icons/school/nust.png" alt="NUST logo">
             <h3>نیشنل یونیورسٹی برائے سائنس و ٹیکنالوجی (نسٹ)</h3>
@@ -99,6 +90,21 @@
             </div>
           </div>
         </div>
+
+        <div class="column" id="fffpk">
+          <div class="item">
+            <img class="logo" src="../assets/icons/org/fff.png" alt="Fridays For Future PK logo">
+            <h3>فرائی ڈیز فار فیوچر (ایف ایف ایف) پاکستان</h3>
+            <h4>سوشل میڈیا انٹرن</h4>
+            <h4>جولائی ۲۰۲۳</h4>
+            <div class="bullets">
+              <p>• ایف ایف ایف پاکستان کے انسٹاگرام اکاؤنٹ کے لیئے دو پوسٹ تیار کئے۔</p>
+              <p>• جنگلات کی کٹائی اور ۲۰۲۲ کے سیلابوں پر معلوماتی رسالے تحریر کئے۔</p>
+              <p>• سوشل میڈیا مینجمنٹ اور گرافک ڈیزائن کی عملی تربیت حاصل کی۔</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
     
@@ -106,95 +112,99 @@
       <img class="section-header-icon" src="../assets/icons/section/graduation-cap.png">
       <h2>تعلیم</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="bscs">
           <div class="item">
             <img class="logo" src="../assets/icons/school/fast.png" border-radius="50%" alt="NUCES logo">
-            <h3>بی ایس سی، کمپیوٹر سائنس</h3>
+            <h3>بی ایس سی - کمپیوٹر سائنس</h3>
             <h4>فاسٹ نیشنل یونیورسٹی، اسلام آباد</h4>
             <h4>اگست ۲۰۲۲  تا اگست ۲۰۲۷</h4>
           </div>
         </div>
         
-        <div class="column">
+        <div class="column" id="alvl">
           <div class="item">
             <img class="logo" src="../assets/icons/school/bss.png" alt="Beaconhouse logo">
-            <h3>اے لیول، پری انجینئرنگ</h3>
+            <h3>اے لیول - پری انجینئرنگ</h3>
             <h4>بیکن ہاؤس مارگلہ کیمپس، اسلام آباد</h4>
             <h4>اگست ۲۰۲۰  تا اگست ۲۰۲۲</h4>
           </div>
         </div>
+
       </div>
     </section>
  
     <section id="projects">
     <img class="section-header-icon" src="../assets/icons/section/puzzle-piece.png">
-    <h2>Projects</h2>
+    <h2>پروجیکٹس</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="shahi-haveli">
           <a href="https://www.github.com/saadahmedcs/ShahiHaveli" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-java-plain colored" id="java"></i>
                 <i class="skill-icon devicon-css3-plain colored" id="css"></i>
                 <i class="skill-icon devicon-mysql-plain colored" id="mysql"></i>
-                <h3>Shahi Haveli</h3>
-                <p>A desktop app for a Mughal-themed restaurant with interfaces for admin, staff, and customers</p>
+                <h3>شاہی حویلی</h3>
+                <p>مغل طرز کے ریستوران کے لیئے تیار کردہ ڈیسک ٹاپ ایپ، جسے انتظامیہ، ملازمین، اور مہمان استعمال کر سکتے ہیں۔</p>
             </div>
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="merkle-tree">
           <a href="https://www.github.com/saadahmedcs/crypto-verification" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-python-plain colored" id="python"></i>
-                <h3>Cryptographic Verification System</h3>
-                <p>A Merkle-tree based tamper detection system for large-scale datatsets of >1M entries</p>
+                <h3>تصدیقی سسٹم برائے ڈیٹا</h3>
+                <p>دس لاکھ سے زائد اشیاء پر مشتمل وسیع ڈیٹاسیٹس میں چھوٹی سے چھوٹی بے قاعدگی پہچاننے کے لیئے تیار کردہ مرکل ٹری سسٹم۔</p>
             </div>
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="coin-wars">
           <a href="https://www.github.com/saadahmedcs/CoinWars" target="_blank">
             <div class="item">
-                <i class="skill-icon devicon-cplusplus-plain colored" id="cplusplus"></i>        
-                <h3>CoinWars</h3>
-                <p>A game built with SFML; the player and computer fight to collect the higher number of coins</p>
+                <i class="skill-icon devicon-cplusplus-plain colored" id="cplusplus"></i>  
+                <h3 class="eng" style="margin-top: 1.2rem;">CoinWars</h3>
+                <p>ایک کھیل جس میں کھلاڑی اور کمپیوٹر زیادہ سے زیادہ اشرفیاں حاصل کرنے کے لیئے مقابلہ کرتے ہیں۔</p>
             </div>
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="chess">
           <a href="https://www.github.com/saadahmedcs/chess" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-cplusplus-plain colored" id="cplusplus"></i>        
-                <h3>Chess</h3>
-                <p>A command-line game of chess for two players; this is a simplified version with no pawns</p>
+                <h3>شطرنج</h3>
+                <p>دو کھلاڑیوں کے لیئے شطرنج کا کمانڈ لائن کھیل؛ یہ ایک آسان ورژن ہے جس میں پیادے نہیں ہیں۔</p>
             </div>
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="saad-website">
           <a href="https://github.com/saadahmedcs/saadahmedcs.github.io" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-html5-plain colored" id="html"></i>
                 <i class="skill-icon devicon-css3-plain colored" id="css"></i>
-                <h3>Portfolio Website</h3>
-                <p>A personal web portfolio developed using HTML and CSS; click to view GitHub repository</p>
+                <h3>ذاتی ویب سائٹ</h3>
+                <p>میری ذاتی ویب سائٹ کا کوڈ ملاحظہ کرنے کے لیئے یہاں کلک کیجئے۔</p>
             </div>
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="rafay-website">
           <a href="https://github.com/saadahmedcs/rafays-website" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-html5-plain colored" id="html"></i>
                 <i class="skill-icon devicon-css3-plain colored" id="css"></i>
                 <i class="skill-icon devicon-git-plain colored" id="git"></i>
                 <i class="skill-icon devicon-canva-original colored" id="canva"></i>
-                <h3>Website Optimisation</h3>
-                <p>Optimised content and meta tags on a peer's website, enhancing its UI and cross-device adaptability</p>
+                <h3>ویب سائٹ کی تزئین و آرائش</h3>
+                <p>اپنے ایک ساتھی کی ویب سائٹ کے مواد اور میٹا ٹیگز میں اصلاحات کر کے اس کی خوبصورتی میں اضافہ کیا۔</p>
             </div>
           </a>
         </div>
+
       </div>
     </section>
 </body>
