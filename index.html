@@ -5,13 +5,14 @@
     <title>Saad Ahmed | Portfolio</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preload" href="assets/fonts/jnn-regular.woff2" as="font" type="font/woff2" crossorigin>     <!--crossorigin prevents double preloading-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <!--to adjust webpage according to screen sizes-->
     <meta name="name" content="Saad Ahmed | Portfolio">    <!--to enable search engine to fetch the webpage-->
     <style>
-    * { font-family: 'Archive', sans-serif; }
+      * { font-family: 'Archive', sans-serif; }
     </style>
   </header>
 
@@ -32,7 +33,8 @@
       <img class="section-header-icon" src="assets/icons/section/laptop.png">
       <h2>Tech Experience</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="LD-ship">
           <div class="item">
             <img class="logo" src="assets/icons/school/fast.png" border-radius="50%" alt="NUCES logo">
             <h3>National University of Computer & Emerging Sciences</h3>
@@ -44,6 +46,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </section>
       
@@ -51,7 +54,8 @@
       <img class="section-header-icon" src="assets/icons/section/leaves.png">
       <h2>Sustainability Experience</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="bunyaad">
           <div class="item">
             <img class="logo" src="assets/icons/org/bunyaad.png" alt="Bunyaad logo">
             <h3>Bunyaad Pakistan</h3>
@@ -67,7 +71,7 @@
           </div>
         </div>
         
-        <div class="column">
+        <div class="column" id="fffpk">
           <div class="item">
             <img class="logo" src="assets/icons/org/fff.png" alt="Fridays For Future PK logo">
             <h3>Fridays For Future Pakistan</h3>
@@ -81,7 +85,7 @@
           </div>
         </div>
         
-        <div class="column">
+        <div class="column" id="nust-p4ca">
           <div class="item">
             <img class="logo" src="assets/icons/school/nust.png" alt="NUST logo">
             <h3>National University of Sciences & Technology</h3>
@@ -95,6 +99,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </section>
     
@@ -102,7 +107,8 @@
       <img class="section-header-icon" src="assets/icons/section/graduation-cap.png">
       <h2>Education</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="bscs">
           <div class="item">
             <img class="logo" src="assets/icons/school/fast.png" border-radius="50%" alt="NUCES logo">
             <h3>Bachelor of Science (B.S.),<br>Computer Science</h3>
@@ -111,7 +117,7 @@
           </div>
         </div>
         
-        <div class="column">
+        <div class="column" id="alvl">
           <div class="item">
             <img class="logo" src="assets/icons/school/bss.png" alt="Beaconhouse logo">
             <h3>GCE Advanced Level,<br>Math, Chemistry, Physics</h3>
@@ -119,6 +125,7 @@
             <h5>2020 - 2022</h5>
           </div>
         </div>
+
       </div>
     </section>
  
@@ -126,7 +133,8 @@
     <img class="section-header-icon" src="assets/icons/section/puzzle-piece.png">
     <h2>Projects</h2>
       <div class="row">
-        <div class="column">
+
+        <div class="column" id="shahi-haveli">
           <a href="https://www.github.com/saadahmedcs/ShahiHaveli" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-java-plain colored" id="java"></i>
@@ -138,17 +146,17 @@
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="merkle-tree">
           <a href="https://www.github.com/saadahmedcs/crypto-verification" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-python-plain colored" id="python"></i>
-                <h3>Cryptographic Verification System</h3>
-                <p>A Merkle-tree based tamper detection system for large-scale datatsets of >1M entries</p>
+                <h3>Dataset Verification System</h3>
+                <p>A Merkle-tree based tamper detection system for large-scale datatsets with >1M entries</p>
             </div>
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="coin-wars">
           <a href="https://www.github.com/saadahmedcs/CoinWars" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-cplusplus-plain colored" id="cplusplus"></i>        
@@ -158,17 +166,17 @@
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="chess">
           <a href="https://www.github.com/saadahmedcs/chess" target="_blank">
             <div class="item">
-                <i class="skill-icon devicon-cplusplus-plain colored" id="cplusplus"></i>        
+                <i class="skill-icon devicon-cplusplus-plain colored" id="cplusplus"></i>     
                 <h3>Chess</h3>
                 <p>A command-line game of chess for two players; this is a simplified version with no pawns</p>
             </div>
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="saad-website">
           <a href="https://github.com/saadahmedcs/saadahmedcs.github.io" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-html5-plain colored" id="html"></i>
@@ -179,7 +187,7 @@
           </a>
         </div>
         
-        <div class="column">
+        <div class="column" id="rafay-website">
           <a href="https://github.com/saadahmedcs/rafays-website" target="_blank">
             <div class="item">
                 <i class="skill-icon devicon-html5-plain colored" id="html"></i>
@@ -191,6 +199,7 @@
             </div>
           </a>
         </div>
+
       </div>
     </section>
 </body>
