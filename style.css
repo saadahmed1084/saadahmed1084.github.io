@@ -34,7 +34,15 @@
 
 @font-face {
   font-family: "Nastaliq";
-  src: url("assets/fonts/jnn-kasheeda.woff2") format("woff2"), url("assets/fonts/jnn-regular.woff2") format("woff2");
+  src: url("/assets/fonts/jnn-regular.woff2") format("woff2"); /* fallback for italics */
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nastaliq";
+  src: url("assets/fonts/jnn-kasheeda.woff2") format("woff2"); /* priority for italics */
   font-weight: 400;
   font-style: italic;
   font-display: swap;
