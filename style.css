@@ -123,6 +123,7 @@ hr { width: 50%; margin: 1.5rem auto 0; }
   flex-wrap: wrap;
   margin: auto;
   justify-content: center; /* horizontal */
+  align-items: flex-start; /* prevents shorter items from stretching to length of longest item */
   padding: 4px;
   gap: 2rem;
 }
